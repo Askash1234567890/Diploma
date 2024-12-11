@@ -1,8 +1,0 @@
-# Построение B на окружности
-
-Opera-3d > SET XLOCAL=0 YLOCAL=0 ZLOCAL=0 TLOCAL=90,PLOCAL=90,SLOCAL=180 
-Opera-3d > CIRCLE  RADIUS=24 TH1=0 TH2=360 ZC=0 NP=10000 BUFFER=Circle 
-
-# Разложение результата в Фурье
-
-Opera-3d > FIT TYPE=FOURIER  FILE=TEMP COMPONENT=B ORDER=10 PRINT=SCREEN 
