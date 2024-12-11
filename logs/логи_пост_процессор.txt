@@ -1,0 +1,7 @@
+# Построение B на окружности
+
+Opera-3d > CIRCLE  RADIUS=24 TH1=0 TH2=360 ZC=0 NP=1000 BUFFER=Circle 
+
+# Разложение результата в Фурье
+
+Opera-3d > FIT TYPE=FOURIER  FILE=TEMP COMPONENT=Bt ORDER=15 PRINT=YES
