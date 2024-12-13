@@ -12,7 +12,7 @@
 <img 
   src=https://github.com/Askash1234567890/Diplome/blob/main/pictures/рисунок_полюса.png
   alt="Геометрия полюса"
-  width="850"
+  width="500"
 />
 
 Схема алгоритма сбора данных и структуры бд:
@@ -20,7 +20,7 @@
 <img
   src=https://github.com/Askash1234567890/Diplome/blob/main/pictures/алгоритм_сбора_данных.png
   alt='Сбор данных'
-  width='850'
+  width='900'
 />
 ## Этапы решения задачи:
 - [x] Разобраться как строить геометрию в ```opera```;
