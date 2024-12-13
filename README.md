@@ -20,7 +20,7 @@
 <img
   src=https://github.com/Askash1234567890/Diplome/blob/main/pictures/алгоритм_сбора_данных.png
   alt='Сбор данных'
-  width='500'
+  width='800'
 />
 ## Этапы решения задачи:
 - [x] Разобраться как строить геометрию в ```opera```;
