@@ -8,8 +8,9 @@
 - ```...```.
 
 Пример формы полюсного наконечника:
+
 <img 
-src=https://github.com/Askash1234567890/Diplome/blob/main/pictures/рисунок_полюса.jpg
+src=https://github.com/Askash1234567890/Diplome/blob/main/pictures/рисунок_полюса.png
 alt="Описание"
 width="500"/>
 ## Этапы реализации конечной задачи:
