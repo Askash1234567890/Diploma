@@ -18,7 +18,7 @@
 Схема алгоритма сбора данных и структуры бд:
 
 <img
-  src=https://github.com/Askash1234567890/Diplome/blob/main/pictures/алгоритм_сбора_данных.png
+  src=https://github.com/Askash1234567890/Diploma/blob/main/pictures/алгоритм_сбора_данных.png
   alt='Сбор данных'
   width='900'
 />
