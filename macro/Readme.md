@@ -1,7 +1,7 @@
-### Секция посвещенная решению задачи автоматизации работы Opera
+### Opera Automation Section
 
 ## clicker.py
 
-Вследствие того, что Opera представляет из себя бинарный файл, возникли трудности с автоматизацией построений и рассчетов. Эта проблема решается с помощью написания макроса - кликера, который имитирует поведение мыши и клавиатуры по заданному сценарию. 
+Because Opera is a binary application, automating builds and simulations directly proved difficult. The solution is a **macro clicker** that simulates mouse and keyboard actions according to a predefined scenario, driving Opera through each simulation step automatically.
 
-В конце каждой итерации кликера вызывается ```get_harmonics.py```, описание которого приведено [здесь](https://github.com/Askash1234567890/Diploma/tree/main/scripts).
+At the end of each iteration, the clicker calls [`get_harmonics.py`](https://github.com/Askash1234567890/Diploma/tree/main/scripts), which extracts the computed harmonics from Opera's output and appends them to the dataset.

@@ -1,7 +1,7 @@
-## Полученные данные в результате моделирования:
+## Simulation Output Data
 
-В файле ```shape.csv``` содержатся параметры формы - значения скосов у фасок полюсных наконечников. Каждой форме присвоен ключ __id__, характеризующий конкретную форму.
+`shape.csv` — pole shape parameters: chamfer values (R, L) for each pole piece. Each shape is assigned a unique key **id** that identifies a specific geometry.
 
-В файле ```gradients.csv``` содержатся результаты вычисления гармоник тангенсального магнитного поля на 0.8 апертуры квадрупольного магнита (на окружности 24 см) с 0 по 14 включительно (обозначены как _h{i}_). Каждому набору гармоник соответствует свой __id__, совпадающий с __id__ в таблице ```shape.csv```. 
+`gradients.csv` — results of computing the tangential magnetic field harmonics on a circle at 0.8 × aperture of the quadrupole magnet (24 cm radius), harmonics **h0** through **h14** (denoted as _h{i}_). Each row has an **id** matching the corresponding row in `shape.csv`.
 
-В результате объединения по __id__ (INNER JOIN в SQL или merge в pandas) можно получить прямое соответствие параметрам формы фаски (R, L) значения амплитуд гармоник тангенсального магнитного поля, после чего решать задачу регрессии и обратную задачу.
+Joining the two tables on **id** (SQL `INNER JOIN` or pandas `merge`) yields a direct mapping from chamfer parameters (R, L) to harmonic amplitudes, enabling regression modeling and the subsequent inverse optimization problem.
